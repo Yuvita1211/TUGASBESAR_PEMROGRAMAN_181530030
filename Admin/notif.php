@@ -1,0 +1,14 @@
+<?php
+
+    $notif = "";
+
+    if (@$_GET['login']=="wrong"){
+        $notif = '<p class="alert alert-danger">Username/Password salah</p>';
+    }else if (@$_GET['login']=="no"){
+        $notif = '<p class="alert alert-danger">Anda harus Login dahulu</p>';
+    }
+
+
+
+
+?>
